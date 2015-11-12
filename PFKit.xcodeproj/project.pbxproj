@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4585F2A31BF4E048008DE61A /* PFTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585F2A21BF4E048008DE61A /* PFTime.m */; };
 		45B024BD1BF47E9600D1BD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B024BC1BF47E9600D1BD9A /* main.m */; };
 		45B024C01BF47E9600D1BD9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B024BF1BF47E9600D1BD9A /* AppDelegate.m */; };
 		45B024C81BF47E9600D1BD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B024C71BF47E9600D1BD9A /* Assets.xcassets */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4585F2A11BF4E048008DE61A /* PFTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTime.h; sourceTree = "<group>"; };
+		4585F2A21BF4E048008DE61A /* PFTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTime.m; sourceTree = "<group>"; };
 		45B024B81BF47E9600D1BD9A /* PFKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B024BC1BF47E9600D1BD9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45B024BE1BF47E9600D1BD9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4585F2A01BF4E026008DE61A /* PFTime */ = {
+			isa = PBXGroup;
+			children = (
+				4585F2A11BF4E048008DE61A /* PFTime.h */,
+				4585F2A21BF4E048008DE61A /* PFTime.m */,
+			);
+			path = PFTime;
+			sourceTree = "<group>";
+		};
 		45B024AF1BF47E9600D1BD9A = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +127,7 @@
 				45B024E81BF47F5A00D1BD9A /* PFModel */,
 				45B024E91BF47F5A00D1BD9A /* PFQRCode */,
 				45B024EA1BF47F5A00D1BD9A /* PFString */,
+				4585F2A01BF4E026008DE61A /* PFTime */,
 			);
 			path = PFKit;
 			sourceTree = "<group>";
@@ -283,6 +296,7 @@
 				45B024BD1BF47E9600D1BD9A /* main.m in Sources */,
 				45B025111BF481EE00D1BD9A /* PersonModel.m in Sources */,
 				45B024F01BF47FF500D1BD9A /* PFModel.m in Sources */,
+				4585F2A31BF4E048008DE61A /* PFTime.m in Sources */,
 				45B024F91BF4808500D1BD9A /* NSString+PFLocalized.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

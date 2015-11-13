@@ -31,11 +31,12 @@
 #ifndef PFKit_h
 #define PFKit_h
 
-#import "NSString+PFJudge.h"
-#import "NSString+PFLocalized.h"
-
 #import "PFFile.h"
 #import "PFModel.h"
 #import "PFQRCode.h"
+#import "PFTime.h"
+
+#import "NSString+PFJudge.h"
+#import "NSString+PFLocalized.h"
 
 #endif /* PFKit_h */

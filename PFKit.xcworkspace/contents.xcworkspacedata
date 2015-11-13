@@ -5,41 +5,8 @@
       location = "group:PFKit"
       name = "PFKit">
       <Group
-         location = "group:PFFile"
-         name = "PFFile">
-         <FileRef
-            location = "group:PFFile.h">
-         </FileRef>
-         <FileRef
-            location = "group:PFFile.m">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:PFKit.h">
-      </FileRef>
-      <Group
-         location = "group:PFModel"
-         name = "PFModel">
-         <FileRef
-            location = "group:PFModel.h">
-         </FileRef>
-         <FileRef
-            location = "group:PFModel.m">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:PFQRCode"
-         name = "PFQRCode">
-         <FileRef
-            location = "group:PFQRCode.h">
-         </FileRef>
-         <FileRef
-            location = "group:PFQRCode.m">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:PFString"
-         name = "PFString">
+         location = "group:Catagory"
+         name = "Catagory">
          <FileRef
             location = "group:NSString+PFJudge.h">
          </FileRef>
@@ -54,8 +21,26 @@
          </FileRef>
       </Group>
       <Group
-         location = "group:PFTime"
-         name = "PFTime">
+         location = "group:PFKit"
+         name = "PFKit">
+         <FileRef
+            location = "group:PFFile.h">
+         </FileRef>
+         <FileRef
+            location = "group:PFFile.m">
+         </FileRef>
+         <FileRef
+            location = "group:PFModel.h">
+         </FileRef>
+         <FileRef
+            location = "group:PFModel.m">
+         </FileRef>
+         <FileRef
+            location = "group:PFQRCode.h">
+         </FileRef>
+         <FileRef
+            location = "group:PFQRCode.m">
+         </FileRef>
          <FileRef
             location = "group:PFTime.h">
          </FileRef>
@@ -63,6 +48,9 @@
             location = "group:PFTime.m">
          </FileRef>
       </Group>
+      <FileRef
+         location = "group:PFKit.h">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Demo/Demo.xcodeproj">

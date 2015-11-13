@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  PFKit
+//  Demo
 //
-//  Created by PFei_He on 15/11/12.
+//  Created by PFei_He on 15/11/13.
 //  Copyright © 2015年 PF-Lib. All rights reserved.
 //
 
@@ -21,7 +21,7 @@
     // Override point for customization after application launch.
     
     //从文件中读取JSON
-    [PersonModel sharedInstance].JSON = [PFFile readJSON:@"person"];
+    [Person sharedInstance].JSON = [PFFile readJSON:@"person"];
     
     return YES;
 }

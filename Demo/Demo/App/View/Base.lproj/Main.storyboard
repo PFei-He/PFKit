@@ -17,27 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="977-8Z-dPa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aqu-7K-CZN">
                                 <rect key="frame" x="180" y="180" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="DiK-RO-MYe"/>
-                                    <constraint firstAttribute="width" constant="240" id="OLl-Z6-Qjg"/>
+                                    <constraint firstAttribute="height" constant="240" id="BO7-nI-5Mo"/>
+                                    <constraint firstAttribute="width" constant="240" id="VtJ-hO-xxj"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="977-8Z-dPa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cbr-EC-0MI"/>
-                            <constraint firstItem="977-8Z-dPa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LDz-kj-HT7"/>
+                            <constraint firstItem="aqu-7K-CZN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ccq-lg-Hap"/>
+                            <constraint firstItem="aqu-7K-CZN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="czN-Mw-Nlt"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="977-8Z-dPa" id="3x8-en-3Fj"/>
+                        <outlet property="imageView" destination="aqu-7K-CZN" id="xHg-Ct-LOw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="346"/>
+            <point key="canvasLocation" x="305" y="418"/>
         </scene>
     </scenes>
 </document>

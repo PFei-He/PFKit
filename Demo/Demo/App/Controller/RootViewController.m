@@ -1,8 +1,8 @@
 //
 //  RootViewController.m
-//  PFKit
+//  Demo
 //
-//  Created by PFei_He on 15/11/12.
+//  Created by PFei_He on 15/11/13.
 //  Copyright © 2015年 PF-Lib. All rights reserved.
 //
 
@@ -23,11 +23,11 @@
     [super viewDidLoad];
     
     //取出JSON中的对象参数
-    Food *food = [[Food alloc] initWithJSON:[PersonModel sharedInstance].food];
+    Food *food = [[Food alloc] initWithJSON:[Person sharedInstance].food];
     Fruits *fruits = [[Fruits alloc] initWithJSON:food.fruit[0]];
     NSLog(@"%@", fruits.fruit);
     
-    self.imageView.image = [PFQRCode createWithString:[PersonModel sharedInstance].code imageNamed:@"Custom Figure.jpg" codeSize:self.imageView.frame.size.width];
+    self.imageView.image = [PFQRCode createWithString:[Person sharedInstance].code imageNamed:@"Custom Figure.jpg" codeSize:self.imageView.frame.size.width];
 }
 
 - (void)didReceiveMemoryWarning

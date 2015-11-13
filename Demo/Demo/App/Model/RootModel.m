@@ -1,12 +1,12 @@
 //
-//  PersonModel.m
-//  PFKit
+//  RootModel.m
+//  Demo
 //
-//  Created by PFei_He on 15/11/12.
+//  Created by PFei_He on 15/11/13.
 //  Copyright © 2015年 PF-Lib. All rights reserved.
 //
 
-#import "PersonModel.h"
+#import "RootModel.h"
 
 @implementation Sports
 
@@ -20,12 +20,12 @@
 
 @end
 
-@implementation PersonModel
+@implementation Person
 
 //单例
-+ (PersonModel *)sharedInstance
++ (Person *)sharedInstance
 {
-    static PersonModel *instance = nil;
+    static Person *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[self alloc] init];

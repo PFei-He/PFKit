@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45B024B71BF47E9600D1BD9A"
-               BuildableName = "PFKit.app"
-               BlueprintName = "PFKit"
-               ReferencedContainer = "container:PFKit.xcodeproj">
+               BlueprintIdentifier = "456225B31BF579F9008202A7"
+               BuildableName = "Demo.app"
+               BlueprintName = "Demo"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45B024B71BF47E9600D1BD9A"
-            BuildableName = "PFKit.app"
-            BlueprintName = "PFKit"
-            ReferencedContainer = "container:PFKit.xcodeproj">
+            BlueprintIdentifier = "456225B31BF579F9008202A7"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45B024B71BF47E9600D1BD9A"
-            BuildableName = "PFKit.app"
-            BlueprintName = "PFKit"
-            ReferencedContainer = "container:PFKit.xcodeproj">
+            BlueprintIdentifier = "456225B31BF579F9008202A7"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45B024B71BF47E9600D1BD9A"
-            BuildableName = "PFKit.app"
-            BlueprintName = "PFKit"
-            ReferencedContainer = "container:PFKit.xcodeproj">
+            BlueprintIdentifier = "456225B31BF579F9008202A7"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

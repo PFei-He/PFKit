@@ -15,8 +15,8 @@
 * PFTime - 可实现时间和时间戳的互相转换
 
 #### Catagory ####
-* NSString+PFJudge - 对字符串增加各种判断和匹配功能
-* NSString+PFLocalize - 可实现字符串的国际化和本地化
+* NSString+PFKit - NSString类目
+* UIView+PFKit - UIView类目
 
 安装
 ---

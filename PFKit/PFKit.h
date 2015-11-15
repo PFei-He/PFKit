@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.0.3
+//  vesion: 0.0.5
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@
 #import "PFQRCode.h"
 #import "PFTime.h"
 
-#import "NSString+PFJudge.h"
-#import "NSString+PFLocalized.h"
+#import "NSString+PFKit.h"
+#import "UIView+PFKit.h"
 
 #endif /* PFKit_h */

@@ -1,13 +1,13 @@
 //
-//  NSString+PFJudge.m
+//  NSString+PFKit.m
 //  PFKit
 //
-//  Created by PFei_He on 15/11/12.
+//  Created by PFei_He on 15/11/15.
 //  Copyright © 2015年 PF-Lib. All rights reserved.
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.0.3
+//  vesion: 0.0.5
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -28,7 +28,7 @@
 //  THE SOFTWARE.
 //
 
-#import "NSString+PFJudge.h"
+#import "NSString+PFKit.h"
 
 @implementation NSString (PFJudge)
 
@@ -141,6 +141,22 @@
     }
     
     return matchesStr;
+}
+
+@end
+
+@implementation NSString (PFLocalized)
+
+//本地化
+- (NSString *)localized
+{
+    return NSLocalizedStringWithDefaultValue(self, nil, [NSBundle mainBundle], nil, nil);
+}
+
+//本地化带注释
+- (NSString *)localizedWithComment:(NSString *)comment
+{
+    return NSLocalizedStringWithDefaultValue(self, nil, [NSBundle mainBundle], nil, comment);
 }
 
 @end

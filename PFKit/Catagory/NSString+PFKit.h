@@ -1,13 +1,13 @@
 //
-//  NSString+PFLocalized.h
+//  NSString+PFKit.h
 //  PFKit
 //
-//  Created by PFei_He on 15/11/12.
+//  Created by PFei_He on 15/11/15.
 //  Copyright © 2015年 PF-Lib. All rights reserved.
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.0.3
+//  vesion: 0.0.5
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -29,6 +29,66 @@
 //
 
 #import <Foundation/Foundation.h>
+
+@interface NSString (PFJudge)
+
+/**
+ *  @brief 判断是否QQ号码
+ *  @note
+ *  @param
+ *  @return
+ */
+- (BOOL)isQQ;
+
+/**
+ *  @brief 判断是否邮箱地址
+ *  @note
+ *  @param
+ *  @return
+ */
+- (BOOL)isEmail;
+
+/**
+ *  @brief 判断是否URL
+ *  @note
+ *  @param
+ *  @return
+ */
+- (BOOL)isURL;
+
+/**
+ *  @brief 判断是否手机号码
+ *  @note
+ *  @param
+ *  @return
+ */
+- (BOOL)isMobilePhoneNumber;
+
+/**
+ *  @brief 判断是否ip地址
+ *  @note
+ *  @param
+ *  @return
+ */
+- (BOOL)isIPAddress;
+
+/**
+ *  @brief 匹配邮箱地址
+ *  @note
+ *  @param
+ *  @return
+ */
+- (NSString *)matchesEmail:(NSString *)string;
+
+/**
+ *  @brief 匹配URL
+ *  @note
+ *  @param
+ *  @return
+ */
+- (NSString *)matchesURL:(NSString *)string;
+
+@end
 
 @interface NSString (PFLocalized)
 

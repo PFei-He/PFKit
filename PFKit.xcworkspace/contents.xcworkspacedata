@@ -8,16 +8,16 @@
          location = "group:Catagory"
          name = "Catagory">
          <FileRef
-            location = "group:NSString+PFJudge.h">
+            location = "group:NSString+PFKit.h">
          </FileRef>
          <FileRef
-            location = "group:NSString+PFJudge.m">
+            location = "group:NSString+PFKit.m">
          </FileRef>
          <FileRef
-            location = "group:NSString+PFLocalized.h">
+            location = "group:UIView+PFKit.h">
          </FileRef>
          <FileRef
-            location = "group:NSString+PFLocalized.m">
+            location = "group:UIView+PFKit.m">
          </FileRef>
       </Group>
       <Group

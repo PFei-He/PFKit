@@ -15,12 +15,12 @@
 		456225DC1BF57A4A008202A7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225DB1BF57A4A008202A7 /* RootViewController.m */; };
 		456225E11BF57B4E008202A7 /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 456225E01BF57B4E008202A7 /* RootModel.m */; };
 		4562278D1BF58788008202A7 /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 4562278C1BF58788008202A7 /* person.json */; };
-		45E377341BF8E542008CA179 /* NSString+PFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E377271BF8E542008CA179 /* NSString+PFKit.m */; };
-		45E377351BF8E542008CA179 /* UIView+PFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E377291BF8E542008CA179 /* UIView+PFKit.m */; };
-		45E377361BF8E542008CA179 /* PFFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E3772C1BF8E542008CA179 /* PFFile.m */; };
-		45E377371BF8E542008CA179 /* PFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E3772E1BF8E542008CA179 /* PFModel.m */; };
-		45E377381BF8E542008CA179 /* PFQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E377301BF8E542008CA179 /* PFQRCode.m */; };
-		45E377391BF8E542008CA179 /* PFTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E377321BF8E542008CA179 /* PFTime.m */; };
+		4588713D1BF9D83D00437C08 /* NSString+PFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 458871301BF9D83D00437C08 /* NSString+PFKit.m */; };
+		4588713E1BF9D83D00437C08 /* UIView+PFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 458871321BF9D83D00437C08 /* UIView+PFKit.m */; };
+		4588713F1BF9D83D00437C08 /* PFFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 458871351BF9D83D00437C08 /* PFFile.m */; };
+		458871401BF9D83D00437C08 /* PFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 458871371BF9D83D00437C08 /* PFModel.m */; };
+		458871411BF9D83D00437C08 /* PFQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 458871391BF9D83D00437C08 /* PFQRCode.m */; };
+		458871421BF9D83D00437C08 /* PFTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588713B1BF9D83D00437C08 /* PFTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,19 +38,19 @@
 		456225E01BF57B4E008202A7 /* RootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModel.m; sourceTree = "<group>"; };
 		456225E21BF57B8A008202A7 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
 		4562278C1BF58788008202A7 /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
-		45E377261BF8E542008CA179 /* NSString+PFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PFKit.h"; sourceTree = "<group>"; };
-		45E377271BF8E542008CA179 /* NSString+PFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PFKit.m"; sourceTree = "<group>"; };
-		45E377281BF8E542008CA179 /* UIView+PFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PFKit.h"; sourceTree = "<group>"; };
-		45E377291BF8E542008CA179 /* UIView+PFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PFKit.m"; sourceTree = "<group>"; };
-		45E3772B1BF8E542008CA179 /* PFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFile.h; sourceTree = "<group>"; };
-		45E3772C1BF8E542008CA179 /* PFFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFile.m; sourceTree = "<group>"; };
-		45E3772D1BF8E542008CA179 /* PFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFModel.h; sourceTree = "<group>"; };
-		45E3772E1BF8E542008CA179 /* PFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFModel.m; sourceTree = "<group>"; };
-		45E3772F1BF8E542008CA179 /* PFQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFQRCode.h; sourceTree = "<group>"; };
-		45E377301BF8E542008CA179 /* PFQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFQRCode.m; sourceTree = "<group>"; };
-		45E377311BF8E542008CA179 /* PFTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTime.h; sourceTree = "<group>"; };
-		45E377321BF8E542008CA179 /* PFTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTime.m; sourceTree = "<group>"; };
-		45E377331BF8E542008CA179 /* PFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFKit.h; sourceTree = "<group>"; };
+		4588712F1BF9D83D00437C08 /* NSString+PFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PFKit.h"; sourceTree = "<group>"; };
+		458871301BF9D83D00437C08 /* NSString+PFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PFKit.m"; sourceTree = "<group>"; };
+		458871311BF9D83D00437C08 /* UIView+PFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PFKit.h"; sourceTree = "<group>"; };
+		458871321BF9D83D00437C08 /* UIView+PFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PFKit.m"; sourceTree = "<group>"; };
+		458871341BF9D83D00437C08 /* PFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFile.h; sourceTree = "<group>"; };
+		458871351BF9D83D00437C08 /* PFFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFile.m; sourceTree = "<group>"; };
+		458871361BF9D83D00437C08 /* PFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFModel.h; sourceTree = "<group>"; };
+		458871371BF9D83D00437C08 /* PFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFModel.m; sourceTree = "<group>"; };
+		458871381BF9D83D00437C08 /* PFQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFQRCode.h; sourceTree = "<group>"; };
+		458871391BF9D83D00437C08 /* PFQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFQRCode.m; sourceTree = "<group>"; };
+		4588713A1BF9D83D00437C08 /* PFTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTime.h; sourceTree = "<group>"; };
+		4588713B1BF9D83D00437C08 /* PFTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTime.m; sourceTree = "<group>"; };
+		4588713C1BF9D83D00437C08 /* PFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,46 +152,46 @@
 		456225D71BF57A33008202A7 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				45E377241BF8E542008CA179 /* PFKit */,
+				4588712D1BF9D83D00437C08 /* PFKit */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
 		};
-		45E377241BF8E542008CA179 /* PFKit */ = {
+		4588712D1BF9D83D00437C08 /* PFKit */ = {
 			isa = PBXGroup;
 			children = (
-				45E377251BF8E542008CA179 /* Catagory */,
-				45E3772A1BF8E542008CA179 /* PFKit */,
-				45E377331BF8E542008CA179 /* PFKit.h */,
+				4588712E1BF9D83D00437C08 /* Catagory */,
+				458871331BF9D83D00437C08 /* Foundation */,
+				4588713C1BF9D83D00437C08 /* PFKit.h */,
 			);
 			name = PFKit;
 			path = ../../../PFKit;
 			sourceTree = "<group>";
 		};
-		45E377251BF8E542008CA179 /* Catagory */ = {
+		4588712E1BF9D83D00437C08 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
-				45E377261BF8E542008CA179 /* NSString+PFKit.h */,
-				45E377271BF8E542008CA179 /* NSString+PFKit.m */,
-				45E377281BF8E542008CA179 /* UIView+PFKit.h */,
-				45E377291BF8E542008CA179 /* UIView+PFKit.m */,
+				4588712F1BF9D83D00437C08 /* NSString+PFKit.h */,
+				458871301BF9D83D00437C08 /* NSString+PFKit.m */,
+				458871311BF9D83D00437C08 /* UIView+PFKit.h */,
+				458871321BF9D83D00437C08 /* UIView+PFKit.m */,
 			);
 			path = Catagory;
 			sourceTree = "<group>";
 		};
-		45E3772A1BF8E542008CA179 /* PFKit */ = {
+		458871331BF9D83D00437C08 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				45E3772B1BF8E542008CA179 /* PFFile.h */,
-				45E3772C1BF8E542008CA179 /* PFFile.m */,
-				45E3772D1BF8E542008CA179 /* PFModel.h */,
-				45E3772E1BF8E542008CA179 /* PFModel.m */,
-				45E3772F1BF8E542008CA179 /* PFQRCode.h */,
-				45E377301BF8E542008CA179 /* PFQRCode.m */,
-				45E377311BF8E542008CA179 /* PFTime.h */,
-				45E377321BF8E542008CA179 /* PFTime.m */,
+				458871341BF9D83D00437C08 /* PFFile.h */,
+				458871351BF9D83D00437C08 /* PFFile.m */,
+				458871361BF9D83D00437C08 /* PFModel.h */,
+				458871371BF9D83D00437C08 /* PFModel.m */,
+				458871381BF9D83D00437C08 /* PFQRCode.h */,
+				458871391BF9D83D00437C08 /* PFQRCode.m */,
+				4588713A1BF9D83D00437C08 /* PFTime.h */,
+				4588713B1BF9D83D00437C08 /* PFTime.m */,
 			);
-			path = PFKit;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,14 +266,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				456225BC1BF579F9008202A7 /* AppDelegate.m in Sources */,
-				45E377381BF8E542008CA179 /* PFQRCode.m in Sources */,
-				45E377351BF8E542008CA179 /* UIView+PFKit.m in Sources */,
+				458871411BF9D83D00437C08 /* PFQRCode.m in Sources */,
+				4588713E1BF9D83D00437C08 /* UIView+PFKit.m in Sources */,
 				456225DC1BF57A4A008202A7 /* RootViewController.m in Sources */,
-				45E377371BF8E542008CA179 /* PFModel.m in Sources */,
-				45E377361BF8E542008CA179 /* PFFile.m in Sources */,
-				45E377341BF8E542008CA179 /* NSString+PFKit.m in Sources */,
+				458871401BF9D83D00437C08 /* PFModel.m in Sources */,
+				4588713F1BF9D83D00437C08 /* PFFile.m in Sources */,
+				4588713D1BF9D83D00437C08 /* NSString+PFKit.m in Sources */,
 				456225B91BF579F9008202A7 /* main.m in Sources */,
-				45E377391BF8E542008CA179 /* PFTime.m in Sources */,
+				458871421BF9D83D00437C08 /* PFTime.m in Sources */,
 				456225E11BF57B4E008202A7 /* RootModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

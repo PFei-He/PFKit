@@ -21,8 +21,8 @@
          </FileRef>
       </Group>
       <Group
-         location = "group:PFKit"
-         name = "PFKit">
+         location = "group:Foundation"
+         name = "Foundation">
          <FileRef
             location = "group:PFFile.h">
          </FileRef>

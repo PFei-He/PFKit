@@ -1,5 +1,5 @@
 //
-//  PFModel.m
+//  PFTime.h
 //  PFKit
 //
 //  Created by PFei_He on 15/11/12.
@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.1.0
+//  vesion: 0.1.1
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -28,38 +28,16 @@
 //  THE SOFTWARE.
 //
 
-#import "PFModel.h"
+#import <Foundation/Foundation.h>
 
-@implementation PFModel
+@interface PFTime : NSObject
 
-//初始化
-- (instancetype)initWithJSON:(id)JSON
-{
-    [self parseJSON:JSON];
-    return [self init];
-}
-
-//JSON数据
-- (void)setJSON:(id)JSON
-{
-    _JSON = JSON;
-    [self parseJSON:JSON];
-}
-
-///解析JSON
-- (void)parseJSON:(id)JSON
-{
-    if ([JSON isKindOfClass:[NSDictionary class]]) {
-        [self setValuesForKeysWithDictionary:JSON];
-    } else {
-        NSLog(@"The object isn't kind of NSDictionary");
-    }
-}
-
-//获取未被声明的对象
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key
-{
-    NSLog(@"**Class->%@ UndefinedKey->%@ Value->%@ Type->%@**", [self classForCoder], key, value, [value classForCoder]);
-}
+/**
+ *  @brief 根据格式获取当前时间
+ *  @note
+ *  @param format: 输出的时间格式
+ *  @return 当前时间
+ */
++ (NSString *)currentTimeWithFormat:(NSString *)format;
 
 @end

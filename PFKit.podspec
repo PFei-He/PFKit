@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'PFKit'
-  s.version                 = '0.1.0'
+  s.version                 = '0.1.1'
   s.summary                 = '对系统API进行简单封装，实现常用功能'
   s.homepage                = 'https://github.com/PFei-He/PFKit'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'PFKit/Catagory/{NSString,UIView}+PFKit.{h,m}'
   end
 
-  s.subspec 'PFKit' do |ss|
-    ss.source_files = 'PFKit/PFKit/PF{File,Model,QRCode,Time}.{h,m}'
+  s.subspec 'Foundation' do |ss|
+    ss.source_files = 'PFKit/Foundation/PF{File,Model,QRCode,Time}.{h,m}'
   end
 end

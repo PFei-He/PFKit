@@ -1,5 +1,5 @@
 //
-//  PFTime.h
+//  PFFile.h
 //  PFKit
 //
 //  Created by PFei_He on 15/11/12.
@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.1.0
+//  vesion: 0.1.1
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -30,14 +30,39 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PFTime : NSObject
+@interface PFFile : NSObject
 
 /**
- *  @brief 根据格式获取当前时间
- *  @note
- *  @param format: 输出的时间格式
- *  @return 当前时间
+ *  @brief 创建文件
+ *  @note 文件存放于沙盒中的Documents文件夹中
+ *  @param fileName: 文件名
+ *  @return
  */
-+ (NSString *)currentTimeWithFormat:(NSString *)format;
++ (void)createFile:(NSString *)fileName;
+
+/**
+ *  @brief 读取文件
+ *  @note 文件存放于沙盒中的Documents文件夹中
+ *  @param fileName: 文件名
+ *  @return 文件中的数据
+ */
++ (NSDictionary *)readFile:(NSString *)fileName;
+
+/**
+ *  @brief 读取JSON文件
+ *  @note 文件存放于main bundle中
+ *  @param fileName: 文件名
+ *  @return 文件中的数据
+ */
++ (NSDictionary *)readJSON:(NSString *)fileName;
+
+/**
+ *  @brief 写入文件
+ *  @note 文件存放于沙盒中的Documents文件夹中
+ *  @param fileName: 文件名
+ *  @param params: 写入文件的参数
+ *  @return 写入结果
+ */
++ (BOOL)writeToFile:(NSString *)fileName params:(NSDictionary *)params;
 
 @end

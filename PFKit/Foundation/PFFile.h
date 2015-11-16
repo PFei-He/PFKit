@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.1.1
+//  vesion: 0.1.2
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@
  *  @brief 创建文件
  *  @note 文件存放于沙盒中的Documents文件夹中
  *  @param fileName: 文件名
- *  @return
+ *  @return 无
  */
 + (void)createFile:(NSString *)fileName;
 

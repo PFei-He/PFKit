@@ -3,20 +3,21 @@
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/PFei-He/PFKit/master/LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/PFKit.svg)](https://img.shields.io/cocoapods/v/PFKit.svg)
 
 对系统API进行简单封装，实现常用功能
 
 版本
 ---
-0.1.1
+0.1.2
 
 说明
 ---
-#### PFKit
-* `PFFile` - 实现对沙盒文件的读写功能
-* `PFModel` - 可作为KVC模式解析JSON的模型类的基类
-* `PFQRCode` - 利用系统的AVFoundation框架生成二维码，可对二维码模式进行个人定制，实现带图片的二维码
-* `PFTime` - 可实现时间和时间戳的互相转换
+#### Foundation
+* `PFFile` - 实现文件生成和读写功能
+* `PFModel` - JSON模型的基类
+* `PFQRCode` - 利用AVFoundation框架生成二维码
+* `PFTime` - 实现时间获取和转化功能
 
 #### Catagory
 * `NSString+PFKit` - NSString类目

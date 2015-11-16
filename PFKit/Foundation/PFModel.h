@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.1.1
+//  vesion: 0.1.2
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -37,9 +37,9 @@
 
 /**
  *  @brief 初始化
- *  @note
+ *  @note 无
  *  @param JSON: JSON数据
- *  @return
+ *  @return Model类实例
  */
 - (instancetype)initWithJSON:(id)JSON;
 

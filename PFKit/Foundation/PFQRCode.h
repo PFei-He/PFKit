@@ -7,7 +7,7 @@
 //
 //  https://github.com/PFei-He/PFKit
 //
-//  vesion: 0.1.1
+//  vesion: 0.1.2
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -34,11 +34,11 @@
 
 /**
  *  @brief 生成二维码图片
- *  @note
+ *  @note 无
  *  @param string: 用于生成二维码的字符串
  *  @param imageNamed: 放置于二维码中间的定制图
  *  @param codeSize: 二维码的尺寸
- *  @return
+ *  @return 二维码图片
  */
 + (UIImage *)createWithString:(NSString *)string imageNamed:(NSString *)name codeSize:(CGFloat)size;
 
